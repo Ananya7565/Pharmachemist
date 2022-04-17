@@ -10,6 +10,8 @@ The below images will give you a glimpse of the application / site which a user 
 
 ![register_page](https://user-images.githubusercontent.com/79797979/163704178-8dfaf526-2eea-436a-868f-aa7433f16e74.png)
 
+![mongodb_database](https://user-images.githubusercontent.com/79797979/163704276-0732414b-86a5-4753-9b17-7f1e71260cd2.png)
+
 ![homepage1](https://user-images.githubusercontent.com/79797979/163704151-74e56536-691d-46dd-9fd1-b8a87661f458.png)
 
 ![homepage2](https://user-images.githubusercontent.com/79797979/163704170-8fc5f8f2-661e-4b8a-8eae-e7e03202a24c.png)
@@ -17,6 +19,10 @@ The below images will give you a glimpse of the application / site which a user 
 ![homepage4](https://user-images.githubusercontent.com/79797979/163704173-59966b98-da68-4f78-9918-042e1e5975e6.png)
 
 ![about1](https://user-images.githubusercontent.com/79797979/163704184-96126790-5552-4dfb-94f7-b4e8fc3afb94.png)
+
+![about2](https://user-images.githubusercontent.com/79797979/163704283-cd06903a-bfac-45ff-ad64-214a3fba343c.png)
+
+![about4](https://user-images.githubusercontent.com/79797979/163704339-ad186baf-8412-4974-b3e4-82b6acbc2a53.png)
 
 ![products2](https://user-images.githubusercontent.com/79797979/163704203-35cd94fb-c0ee-469e-b119-0cd155ff118d.png)
 
