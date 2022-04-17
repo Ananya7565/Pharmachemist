@@ -1,0 +1,268 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> DENTAL</title>
+        <link rel="stylesheet" href="heartStyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://kit.fontawesome.com/c5a7177c91.js" crossorigin="anonymous"></script>
+        <script>
+            function handleClick(a,b,c){
+               var x=[];
+               x.push(a);
+               x.push(b);
+               x.push(c);
+
+               alert("Added to cart!")
+               console.log(a);
+               localStorage.setItem("title", a)
+
+               console.log(b)
+               localStorage.setItem("imgsrc", b)
+
+               console.log(c)
+               localStorage.setItem("price", c)
+
+            }
+            
+        </script>
+
+        
+
+    </head>
+
+
+    <body> 
+        <section class="header">
+			<nav>
+				 
+				<a href="homepage.html"><img src="C:\Users\Ananya\OneDrive\Desktop\loginmongo\logonew.PNG" style="width:250px;position:relative;left:-60px;"> </a>
+				<div class = nav-links>
+					<ul>
+						<li><a href="homepage.html"> <h2><i class="fas fa-home"></i></h2></a></li>
+						<li><a href="cart.html"><h2><i class="fas fa-shopping-cart"></i></h2></a> </li>
+						<li><a href="loginold.html"><h4>LOGOUT</h4></a> </li>
+						<li><a href="about.html"><h4>ABOUT US</h4></a> </li>
+					</ul>
+				
+			</nav>
+		</section>
+		<br><br><br>
+
+    <div class="small-container" style="position:absolute;top:170px;">
+        <h2 class='title' > Dental Products </h2>
+        <div class="row">
+        <div class="col-4"> 
+            <img src="https://m.media-amazon.com/images/I/71N7pOlkSYL._SL1500_.jpg" style="height:200px;">
+            <h4><b>Colgate Toothpaste</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 1600 </b></p>
+                <button class="b" onclick="handleClick('Colgate Toothpaste', 'https://m.media-amazon.com/images/I/71N7pOlkSYL._SL1500_.jpg', '1600' )"> <b>Add to cart</b></button>
+
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://dictionary.cambridge.org/images/thumb/toothb_noun_001_17891.jpg?version=5.0.199" style="height:200px;">
+            <h4><b>Toothbrush</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+                <p><b> &#8377; 300 </b></p>
+                <button class="b" onclick="handleClick('Toothbrush', 'https://dictionary.cambridge.org/images/thumb/toothb_noun_001_17891.jpg?version=5.0.199','300')"><b> Add to cart</b></button>
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://static.beautytocare.com/media/catalog/product/cache/global/image/650x650/85e4522595efc69f496374d01ef2bf13/o/r/oral-b-dental-floss-flour-mint.jpg" style="height:200px;">
+            <h4><b>Oral B Floss</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 350 <b></p>
+                <button class="b" onclick="handleClick ('Oral B Floss','https://static.beautytocare.com/media/catalog/product/cache/global/image/650x650/85e4522595efc69f496374d01ef2bf13/o/r/oral-b-dental-floss-flour-mint.jpg','350') "> <b>Add to cart<b></button>
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://m.media-amazon.com/images/I/41z2C9sEhLL._SL1280_.jpg" style="height:200px;">
+            <h4><b>Tooth Whitener</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 1200 </b></p>
+                <button class="b" onclick="handleClick('Tooth Whitener','https://m.media-amazon.com/images/I/41z2C9sEhLL._SL1280_.jpg', '1200')"><b> Add to cart</b></button>
+        </div>
+
+        <div class="col-4" style="position:relative;top:405px;left:800px;"> 
+            <img src="https://cdn.shopify.com/s/files/1/0080/4719/8261/products/sd_6103_gelmax_blue-black_1000x1000_6aaba944-4ce6-47e4-869f-2ef1ea2779be_2000x.jpg?v=1608695237" style="height:200px;">
+            <h4><b>Mouth Guard</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 850 </b></p>
+                <button class="b" onclick="handleClick('Mouth Guard','https://cdn.shopify.com/s/files/1/0080/4719/8261/products/sd_6103_gelmax_blue-black_1000x1000_6aaba944-4ce6-47e4-869f-2ef1ea2779be_2000x.jpg?v=1608695237', '850')"> <b>Add to cart</b></button>
+        </div>
+    </div>
+    </div>
+
+    <div class="col-4"> 
+        <img src="https://m.media-amazon.com/images/I/81Ylyzma15L._SY741_.jpg" style="height:200px;">
+        <h4><b>Mouth Wash</b></h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p><b> &#8377; 200 </b></p>
+            <button class="b" onclick="handleClick('Mouth Wash','https://m.media-amazon.com/images/I/81Ylyzma15L._SY741_.jpg', '200')"><b> Add to cart</b></button>
+    </div>
+
+
+    <div class="col-4">     
+           <img src="https://26olop4eahqt35m90z2ngaxt-wpengine.netdna-ssl.com/wp-content/uploads/2015/11/Floss-Pick.jpg" style="height:200px;">   
+        <h4><b>Floss Pick</b></h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p><b>&#8377; 450 </b></p>
+            <button class="b" onclick="handleClick('Floss Pick', 'https://26olop4eahqt35m90z2ngaxt-wpengine.netdna-ssl.com/wp-content/uploads/2015/11/Floss-Pick.jpg','450')"><b> Add to cart</b></button>
+    </div>
+
+    <div class="col-4"> 
+        <img src="https://static.beautytocare.com/media/catalog/product/cache/global/image/650x650/85e4522595efc69f496374d01ef2bf13/o/r/oral-b-vitality-cross-action-100-white-electric-toothbrush.jpg" style="height:200px;">
+        <h4><b>Electric Toothbrush</b></h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </div>
+            <p><b> &#8377; 1800 </b></p>
+            <button class="b" onclick="handleClick('Electric Toothbrush','https://static.beautytocare.com/media/catalog/product/cache/global/image/650x650/85e4522595efc69f496374d01ef2bf13/o/r/oral-b-vitality-cross-action-100-white-electric-toothbrush.jpg','1800')"> <b>Add to cart</b></button>
+    </div>
+
+    <div class="col-4"> 
+        <img src="https://media.istockphoto.com/photos/complete-set-of-false-teeth-picture-id988531510" style="height:200px;">
+        <h4><b>False Teeth Set</b></h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p><b> &#8377; 700 </b></p>
+            <button class="b" onclick="handleClick('False Teeth Set','https://media.istockphoto.com/photos/complete-set-of-false-teeth-picture-id988531510','700')"><b> Add to cart </b></button>
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://i.pinimg.com/474x/63/ba/d7/63bad772195d59645b670aa5d8e1e629.jpg" style="height:200px;">
+            <h4><b>Tooth Brush Set</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 1300</b> </p>
+                <button class="b" onclick="handleClick('Tooth Brush Set','https://i.pinimg.com/474x/63/ba/d7/63bad772195d59645b670aa5d8e1e629.jpg','1300')"><b> Add to cart</b></button>
+            </div>
+
+            <div class="col-4"> 
+                <img src="https://5.imimg.com/data5/SELLER/Default/2021/4/EA/WN/CP/15369695/toothpaste-packaging-box-500x500.jpg" style="height:200px;">
+                <h4><b>Toothpaste Set Pack</b></h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                    <p><b> &#8377; 1500 </b></p>
+                    <button class="b" onclick="handleClick('Toothpaste Set Pack','https://5.imimg.com/data5/SELLER/Default/2021/4/EA/WN/CP/15369695/toothpaste-packaging-box-500x500.jpg','1500')"><b> Add to cart</b></button>
+                </div>
+
+                <div class="col-4"> 
+                    <img src="https://assetscdn1.paytm.com/images/catalog/product/F/FA/FASDIZZLE-MOUTHNATU899795471DB1A8/1562239203412_0..jpg?imwidth=320&impolicy=hq" style="height:200px;">
+                    <h4><b>Mouth Freshner</b></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                        <p><b> &#8377; 500</b> </p>
+                        <button class="b" onclick="handleClick('Mouth Freshner', 'https://assetscdn1.paytm.com/images/catalog/product/F/FA/FASDIZZLE-MOUTHNATU899795471DB1A8/1562239203412_0..jpg?imwidth=320&impolicy=hq','500')"><b> Add to cart</b></button>
+                    </div>
+                </div>
+<div class="iframe-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/my3WVS4coQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                    <!--    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.everydayhealth.com%2Fimages%2Fheart-health%2Fheart-failure%2Fsupplementsheartfailure.jpg&imgrefurl=https%3A%2F%2Fwww.everydayhealth.com%2Fcolumns%2Fjared-bunch-rhythm-of-life%2Fa-guide-to-over-the-counter-drugs-and-supplements-that-may-cause-or-exacerbate-heart-failure%2F&tbnid=uGki4bijPOkfwM&vet=12ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMyggegUIARCSAg..i&docid=ie5z3ll-57lF9M&w=1440&h=810&q=heart%20medicine&ved=2ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMyggegUIARCSAg" alt="exc" width="500px" class="offerImg">  -->
+                    </div>
+                    <div class="col-2" >
+                    <p> Exclusive offer</p>
+                    <h1>BUY ONE GET ONE FREE </h1>
+                    <small>Offer limited to Prilosec products</small>
+                    <br> <br>
+                    <a href=" "> Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="footer">
+			
+			<h2 > Reach out to us</h2><br><br><br>
+		<!--	<p style="position:absolute;left:20px;font-family: Garamond, serif;"> -->
+            <p style="font-family: Garamond, serif;">
+				The seemingly impersonal contact form on this page will deliver your message personally into my inbox. I usually reply within 48 hours.
+         Not a fan of contact forms? Feel free to send me an email. I’ll tell you my email address right after you’ve read the “please keep in mind” part. <br><br><br>
+
+				<div class= "icons" >
+					<h3>
+					<i class="fa fa-facebook"></i>
+					<i class = "fa fa-instagram"></i> 
+					<i class = "fa fa-twitter"></i> 
+					<i class = "fa fa-linkedin"></i> </h3>
+				</div>
+			</p>
+		</section>
+
+    </body>
+</html>

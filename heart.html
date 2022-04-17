@@ -1,0 +1,266 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> HEART</title>
+        <link rel="stylesheet" href="heartStyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://kit.fontawesome.com/c5a7177c91.js" crossorigin="anonymous"></script>
+        <script>
+            function handleClick(a,b,c){
+               var x=[];
+               x.push(a);
+               x.push(b);
+               x.push(c);
+               alert("Added to cart")
+
+               console.log(a);
+               localStorage.setItem("title", a)
+
+               console.log(b)
+               localStorage.setItem("imgsrc", b)
+
+               console.log(c)
+               localStorage.setItem("price", c)
+
+            }
+            
+        </script>
+
+        
+
+    </head>
+
+
+    <body> 
+        <section class="header">
+			<nav>
+				 
+				<a href="homepage.html"><img src="C:\Users\Ananya\OneDrive\Desktop\loginmongo\logonew.PNG" style="width:250px;position:relative;left:-60px;"> </a>
+				<div class = nav-links>
+					<ul>
+						<li><a href="homepage.html"> <h2><i class="fas fa-home"></i></h2></a></li>
+						<li><a href="cart.html"><h2><i class="fas fa-shopping-cart"></i></h2></a> </li>
+						<li><a href="index.html"><h4>LOGIN</h4></a> </li>
+						<li><a href="index.html"><h4>ABOUT US</h4></a> </li>
+					</ul>
+				
+			</nav>
+		</section>
+		<br><br><br>
+
+    <div class="small-container" style="position:absolute;top:170px;">
+        <h2 class='title' > Heart Products </h2>
+        <div class="row">
+        <div class="col-4"> 
+            <img src="https://media.glamour.com/photos/575ec17347455b233743616f/master/pass/pills.jpg" style="height:200px;">
+            <h4><b>Acebutolol</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 1600 </b></p>
+                <button class="b" onclick="handleClick('Acebutolol', 'https://media.glamour.com/photos/575ec17347455b233743616f/master/pass/pills.jpg', '1600' )"> <b>Add to cart</b></button>
+
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://previews.123rf.com/images/anterovium/anterovium1106/anterovium110600006/9703857-colorful-medical-drugs-pills-vitamins-capsules-closeup.jpg" style="height:200px;">
+            <h4><b>Atenolol</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 300 </b></p>
+                <button class="b" onclick="handleClick('Atenolol ', 'https://previews.123rf.com/images/anterovium/anterovium1106/anterovium110600006/9703857-colorful-medical-drugs-pills-vitamins-capsules-closeup.jpg','300')"><b> Add to cart</b></button>
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtgK3ZOwIoomoehKoPsGkXXKtSUtrelI_MHbVVkszExMD7qN8W0Ua_9p23yRlbAINya4Y&usqp=CAU" style="height:200px;">
+            <h4><b>Betaxolol</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 350 <b></p>
+                <button class="b" onclick="handleClick ('Betaxolol','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtgK3ZOwIoomoehKoPsGkXXKtSUtrelI_MHbVVkszExMD7qN8W0Ua_9p23yRlbAINya4Y&usqp=CAU','350') "> <b>Add to cart<b></button>
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZX6GfEG4jQAhJ0d_7fg4liMqmzktNpULw4C-sbqbmKuk3dfr04YiD9TVdiHLrR3PP0ok&usqp=CAU" style="height:200px;">
+            <h4><b>Ziac</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 1200 </b></p>
+                <button class="b" onclick="handleClick('Ziac','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZX6GfEG4jQAhJ0d_7fg4liMqmzktNpULw4C-sbqbmKuk3dfr04YiD9TVdiHLrR3PP0ok&usqp=CAU', '1200')"><b> Add to cart</b></button>
+        </div>
+        </div>
+        <div class="col-4" style="position:relative;top:405px;left:800px;"> 
+            <img src="https://media.istockphoto.com/photos/blue-and-pink-capsules-picture-id147319918?k=20&m=147319918&s=170667a&w=0&h=-8b7x15KTHG7rZZssBEtbE4psHM8QNcGbQXCgucb8RM=" style="height:200px;">
+            <h4><b>Zebeta</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 850 </b></p>
+                <button class="b" onclick="handleClick('Zebeta','https://media.istockphoto.com/photos/blue-and-pink-capsules-picture-id147319918?k=20&m=147319918&s=170667a&w=0&h=-8b7x15KTHG7rZZssBEtbE4psHM8QNcGbQXCgucb8RM=', '850')"> <b>Add to cart</b></button>
+        </div>
+    </div>
+
+    <div class="col-4"> 
+        <img src="https://c8.alamy.com/compfr/rk5x37/orange-blanc-capsules-comprimes-ont-ete-coulees-a-partir-d-une-bouteille-de-blanc-sur-fond-bleu-antecedents-medicaux-modele-rk5x37.jpg" style="height:200px;">
+        <h4><b>Toprol XL</b></h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p><b> &#8377; 900 </b></p>
+            <button class="b" onclick="handleClick('Toprol XL','https://c8.alamy.com/compfr/rk5x37/orange-blanc-capsules-comprimes-ont-ete-coulees-a-partir-d-une-bouteille-de-blanc-sur-fond-bleu-antecedents-medicaux-modele-rk5x37.jpg','900')"><b> Add to cart</b></button>
+    </div>
+
+
+    <div class="col-4">     
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPDfd6L16ef0ltk2jaq4uvbc_B1KLywr49vPj3Nl9P0XweHA7j5DkjN8vqML-rBZYPz7s&usqp=CAU" style="height:200px;">   
+        <h4><b>Nadolol</b></h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p><b>&#8377; 450 </b></p>
+            <button class="b" onclick="handleClick('Nadolol', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPDfd6L16ef0ltk2jaq4uvbc_B1KLywr49vPj3Nl9P0XweHA7j5DkjN8vqML-rBZYPz7s&usqp=CAU','450')"><b> Add to cart</b></button>
+    </div>
+
+    <div class="col-4"> 
+        <img src="https://media.glamour.com/photos/575ec17347455b233743616f/master/pass/pills.jpg" style="height:200px;">
+        <h4><b>Inderal</b></h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p><b> &#8377; 1800 </b></p>
+            <button class="b" onclick="handleClick('Inderal','https://media.glamour.com/photos/575ec17347455b233743616f/master/pass/pills.jpg','1800')"> <b>Add to cart</b></button>
+    </div>
+
+    <div class="col-4"> 
+        <img src="https://static.scientificamerican.com/sciam/cache/file/4CA55940-C265-47EF-9B14C2F9B5650B61_source.jpg?w=590&h=800&B9AB67E3-DB3F-474B-9045210F0714D0A4" style="height:200px;">
+        <h4><b>Eliquis </b></h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p><b> &#8377; 1600 </b></p>
+            <button class="b" onclick="handleClick('Eliquis','https://static.scientificamerican.com/sciam/cache/file/4CA55940-C265-47EF-9B14C2F9B5650B61_source.jpg?w=590&h=800&B9AB67E3-DB3F-474B-9045210F0714D0A4','700')"><b> Add to cart </b></button>
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://image.shutterstock.com/image-photo/pharmaceuticals-antibiotics-pills-medicine-colorful-260nw-1061962874.jpg" style="height:200px;">
+            <h4><b>Savaysa</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 1300 </b> </p>
+                <button class="b" onclick="handleClick('Savaysa','https://image.shutterstock.com/image-photo/pharmaceuticals-antibiotics-pills-medicine-colorful-260nw-1061962874.jpg','1300')"><b> Add to cart</b></button>
+            </div>
+
+            <div class="col-4"> 
+                <img src="https://images.theconversation.com/files/314451/original/file-20200210-109901-1j5hdi.jpg?ixlib=rb-1.1.0&rect=0%2C201%2C5176%2C2584&q=45&auto=format&w=1356&h=668&fit=crop" style="height:200px;">
+                <h4><b>Xarelto</b></h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                    <p><b> &#8377; 1500 </b></p>
+                    <button class="b" onclick="handleClick('Xarelto','https://images.theconversation.com/files/314451/original/file-20200210-109901-1j5hdi.jpg?ixlib=rb-1.1.0&rect=0%2C201%2C5176%2C2584&q=45&auto=format&w=1356&h=668&fit=crop','1500')"><b> Add to cart</b></button>
+                </div>
+
+                <div class="col-4"> 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5QvklEOcxyJoiz9t2AKH0hFYwNJpPi2EAfA&usqp=CAU" style="height:200px;">
+                    <h4><b>Coumadin</b></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                        <p><b> &#8377; 500</b> </p>
+                        <button class="b" onclick="handleClick('Coumadin', 'https://www.google.com/imgres?imgurl=https%3A%2F%2F3.imimg.com%2Fdata3%2FNY%2FQV%2FMY-3497618%2Fheart-and-cardiovascular-diseases-500x500.jpg&imgrefurl=https%3A%2F%2Fwww.indiamart.com%2Fproddetail%2Fheart-and-cardiovascular-diseases-6592714888.html&tbnid=ECWeJ0WLQRGLmM&vet=12ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMygCegUIARDPAQ..i&docid=ADYCZlzwXWoCyM&w=500&h=348&q=heart%20medicine&ved=2ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMygCegUIARDPAQ','500')"><b> Add to cart</b></button>
+                    </div>
+                </div>
+
+
+
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                    <!--    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.everydayhealth.com%2Fimages%2Fheart-health%2Fheart-failure%2Fsupplementsheartfailure.jpg&imgrefurl=https%3A%2F%2Fwww.everydayhealth.com%2Fcolumns%2Fjared-bunch-rhythm-of-life%2Fa-guide-to-over-the-counter-drugs-and-supplements-that-may-cause-or-exacerbate-heart-failure%2F&tbnid=uGki4bijPOkfwM&vet=12ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMyggegUIARCSAg..i&docid=ie5z3ll-57lF9M&w=1440&h=810&q=heart%20medicine&ved=2ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMyggegUIARCSAg" alt="exc" width="500px" class="offerImg">  -->
+                    </div>
+                    <div class="col-2" >
+                    <p> Exclusive offer</p>
+                    <h1>BUY ONE GET ONE FREE </h1>
+                    <small>Offer limited to Prilosec products</small>
+                    <br> <br>
+                    <a href=" "> Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <section class="footer">
+			
+			<h2 > Reach out to us</h2><br><br><br>
+		<!--	<p style="position:absolute;left:20px;font-family: Garamond, serif;"> -->
+            <p style="font-family: Garamond, serif;">
+				The seemingly impersonal contact form on this page will deliver your message personally into my inbox. I usually reply within 48 hours.
+         Not a fan of contact forms? Feel free to send me an email. I’ll tell you my email address right after you’ve read the “please keep in mind” part. <br><br><br>
+
+				<div class= "icons" >
+					<h3>
+					<i class="fa fa-facebook"></i>
+					<i class = "fa fa-instagram"></i> 
+					<i class = "fa fa-twitter"></i> 
+					<i class = "fa fa-linkedin"></i> </h3>
+				</div>
+			</p>
+		</section>
+
+    </body>
+</html>

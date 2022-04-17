@@ -1,0 +1,268 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> COVID 19</title>
+        <link rel="stylesheet" href="heartStyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://kit.fontawesome.com/c5a7177c91.js" crossorigin="anonymous"></script>
+        <script>
+            function handleClick(a,b,c){
+               var x=[];
+               x.push(a);
+               x.push(b);
+               x.push(c);
+               alert("Added to cart")
+
+               console.log(a);
+               localStorage.setItem("title", a)
+
+               console.log(b)
+               localStorage.setItem("imgsrc", b)
+
+               console.log(c)
+               localStorage.setItem("price", c)
+
+            }
+            
+        </script>
+
+        
+
+    </head>
+
+
+    <body> 
+        <section class="header">
+			<nav>
+				 
+				<a href="homepage.html"><img src="C:\Users\Ananya\OneDrive\Desktop\loginmongo\logonew.PNG" style="width:250px;position:relative;left:-60px;"> </a>
+				<div class = nav-links>
+					<ul>
+						<li><a href="homepage.html"> <h2><i class="fas fa-home"></i></h2></a></li>
+						<li><a href="cart.html"><h2><i class="fas fa-shopping-cart"></i></h2></a> </li>
+						<li><a href="loginold.html"><h4>LOGOUT</h4></a> </li>
+						<li><a href="about.html"><h4>ABOUT US</h4></a> </li>
+					</ul>
+				
+			</nav>
+		</section>
+		<br><br><br>
+
+    <div class="small-container" style="position:absolute;top:170px;">
+        <h2 class='title' > COVID 19 Products </h2>
+        <div class="row">
+        <div class="col-4"> 
+            <img src="https://5.imimg.com/data5/SELLER/Default/2021/8/XF/MK/MJ/46361608/disposable-face-mask-500x500.jpg" style="height:200px;">
+            <h4><b>Surgical Mask</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 20 </b></p>
+                <button class="b" onclick="handleClick('Surgical Mask', 'https://5.imimg.com/data5/SELLER/Default/2021/8/XF/MK/MJ/46361608/disposable-face-mask-500x500.jpg', '20' )"> <b>Add to cart</b></button>
+
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://5.imimg.com/data5/EB/DO/RW/SELLER-12926603/face-shield-500x500.jpg" style="height:200px;">
+            <h4><b>Face Shield</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 100 </b></p>
+                <button class="b" onclick="handleClick('Face Shield', 'https://5.imimg.com/data5/EB/DO/RW/SELLER-12926603/face-shield-500x500.jpg','100')"><b> Add to cart</b></button>
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://images-static.nykaa.com/media/catalog/product/8/9/8905110002840_1_.jpg" style="height:200px;">
+            <h4><b>Hand Sanitizer</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 350 <b></p>
+                <button class="b" onclick="handleClick ('Hand Sanitizer','https://images-static.nykaa.com/media/catalog/product/8/9/8905110002840_1_.jpg','350') "> <b>Add to cart<b></button>
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU5nyLxsEPq-_tLWhkoSqUOf4re1NEy6d83g&usqp=CAU" style="height:200px;">
+            <h4><b>Pulse oximeter</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 500 </b></p>
+                <button class="b" onclick="handleClick('Pulse oximeter','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU5nyLxsEPq-_tLWhkoSqUOf4re1NEy6d83g&usqp=CAU', '500')"><b> Add to cart</b></button>
+        </div>
+
+        <div class="col-4" style="position:relative;top:405px;left:800px;"> 
+            <img src="https://m.media-amazon.com/images/I/71XbqlFv3WL._SY450_.jpg" style="height:200px;">
+            <h4><b>Thermometer</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 850 </b></p>
+                <button class="b" onclick="handleClick('Thermometer','https://m.media-amazon.com/images/I/71XbqlFv3WL._SY450_.jpg', '850')"> <b>Add to cart</b></button>
+        </div>
+    </div>
+    </div>
+
+    <div class="col-4"> 
+        <img src="https://n4.sdlcdn.com/imgs/j/e/g/infrared-thermometers-Dikang-Infrared-Thermometer-SDL906376078-1-2e616.jpg" style="height:200px;">
+        <h4><b>No Contact Thermometer</b></h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </div>
+            <p><b> &#8377; 900 </b></p>
+            <button class="b" onclick="handleClick('No Contact Thermometer','https://n4.sdlcdn.com/imgs/j/e/g/infrared-thermometers-Dikang-Infrared-Thermometer-SDL906376078-1-2e616.jpg','900')"><b> Add to cart</b></button>
+    </div>
+
+
+    <div class="col-4">     
+           <img src="https://www.fda.gov/files/medical-gloves-covid-19.jpg" style="height:200px;">   
+        <h4><b>Medical Gloves</b></h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p><b>&#8377; 150 </b></p>
+            <button class="b" onclick="handleClick('Medical Gloves', 'https://www.fda.gov/files/medical-gloves-covid-19.jpg','150')"><b> Add to cart</b></button>
+    </div>
+
+    <div class="col-4"> 
+        <img src="https://www.bigbasket.com/media/uploads/p/xxl/253537-2_6-dettol-antiseptic-disinfectant-liquid.jpg" style="height:200px;">
+        <h4><b>Dettol Antiseptic</b></h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p><b> &#8377; 300 </b></p>
+            <button class="b" onclick="handleClick('Dettol Antiseptic','https://www.bigbasket.com/media/uploads/p/xxl/253537-2_6-dettol-antiseptic-disinfectant-liquid.jpg','300')"> <b>Add to cart</b></button>
+    </div>
+
+    <div class="col-4"> 
+        <img src="https://newassets.apollo247.com/pub/media/catalog/product/p/r/pre1351.jpg" style="height:200px;">
+        <h4><b>Immunity Pack</b></h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p><b> &#8377; 700 </b></p>
+            <button class="b" onclick="handleClick('Immunity Pack','https://newassets.apollo247.com/pub/media/catalog/product/p/r/pre1351.jpg','700')"><b> Add to cart </b></button>
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_1MDY4VNF11mwaok07uMQR5YpyCgU4KMmIw&usqp=CAU" style="height:200px;">
+            <h4><b>Cloth Mask</b></h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p><b> &#8377; 100</b> </p>
+                <button class="b" onclick="handleClick('Cloth Mask','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_1MDY4VNF11mwaok07uMQR5YpyCgU4KMmIw&usqp=CAU','100')"><b> Add to cart</b></button>
+            </div>
+
+            <div class="col-4"> 
+                <img src="https://rukminim1.flixcart.com/image/416/416/kc7zekw0/hospital-scrub/x/s/f/full-body-sefty-kit-disposal-nonwoven-ppe-kit-90-gsm-pack-of-1-original-imaftekyqk5jwjru.jpeg?q=70" style="height:200px;">
+                <h4><b>Full Body Hospital Scrub</b></h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                    <p><b> &#8377; 800 </b></p>
+                    <button class="b" onclick="handleClick('Full Body Hospital Scrub','https://rukminim1.flixcart.com/image/416/416/kc7zekw0/hospital-scrub/x/s/f/full-body-sefty-kit-disposal-nonwoven-ppe-kit-90-gsm-pack-of-1-original-imaftekyqk5jwjru.jpeg?q=70','800')"><b> Add to cart</b></button>
+                </div>
+
+                <div class="col-4"> 
+                    <img src="https://cdn.shopify.com/s/files/1/0293/6432/2403/products/general-safety-goggles-i167-15-16103264845923_1200x1200.jpg?v=1602922771" style="height:200px;">
+                    <h4><b>Eye Protection Safety Goggles</b></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                        <p><b> &#8377; 200</b> </p>
+                        <button class="b" onclick="handleClick('Eye Protection Safety Goggles', 'https://cdn.shopify.com/s/files/1/0293/6432/2403/products/general-safety-goggles-i167-15-16103264845923_1200x1200.jpg?v=1602922771','200')"><b> Add to cart</b></button>
+                    </div>
+                </div>
+
+<div class="iframe-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xVu_I6WCsto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                    <!--    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.everydayhealth.com%2Fimages%2Fheart-health%2Fheart-failure%2Fsupplementsheartfailure.jpg&imgrefurl=https%3A%2F%2Fwww.everydayhealth.com%2Fcolumns%2Fjared-bunch-rhythm-of-life%2Fa-guide-to-over-the-counter-drugs-and-supplements-that-may-cause-or-exacerbate-heart-failure%2F&tbnid=uGki4bijPOkfwM&vet=12ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMyggegUIARCSAg..i&docid=ie5z3ll-57lF9M&w=1440&h=810&q=heart%20medicine&ved=2ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMyggegUIARCSAg" alt="exc" width="500px" class="offerImg">  -->
+                    </div>
+                    <div class="col-2" >
+                    <p> Exclusive offer</p>
+                    <h1>BUY ONE GET ONE FREE </h1>
+                    <small>Offer limited to Prilosec products</small>
+                    <br> <br>
+                    <a href=" "> Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="footer">
+			
+			<h2 > Reach out to us</h2><br><br><br>
+		<!--	<p style="position:absolute;left:20px;font-family: Garamond, serif;"> -->
+            <p style="font-family: Garamond, serif;">
+				The seemingly impersonal contact form on this page will deliver your message personally into my inbox. I usually reply within 48 hours.
+         Not a fan of contact forms? Feel free to send me an email. I’ll tell you my email address right after you’ve read the “please keep in mind” part. <br><br><br>
+
+				<div class= "icons" >
+					<h3>
+					<i class="fa fa-facebook"></i>
+					<i class = "fa fa-instagram"></i> 
+					<i class = "fa fa-twitter"></i> 
+					<i class = "fa fa-linkedin"></i> </h3>
+				</div>
+			</p>
+		</section>
+
+    </body>
+</html>

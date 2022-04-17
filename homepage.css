@@ -1,0 +1,367 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+	
+
+
+}
+
+.header{
+	min-height:100vh;
+	width:100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/201608/medicines,-nirbhaya-1_647_080916110045.jpg?size=770:433);
+	background-position: center;
+	background-size: cover;
+	position:relative;
+}
+
+.header h4{
+	margin-top: 20px;
+	color: white;
+}
+
+nav{
+	display:flex;
+	padding:2% 6%;
+	justify-content: space-between;
+	align-items:center;
+}
+
+nav img{
+
+	width:150px;
+}
+
+.nav-links{
+	flex:1;
+	text-align:right;
+
+}
+
+.nav-links ul li{
+	list-style: none;
+	display:inline-block;
+	padding:8px 12px;
+	position:relative;
+}
+
+
+.nav-links ul li a{
+	color: #fff;
+	text-decoration:none;
+	font-size:15px;
+}
+
+.nav-links ul li::after{
+	content:'';
+	width:0%;
+	height:2px;
+	background:#f44336;
+	display:block;
+	margin:auto;
+	transition:0.5s
+}
+
+.nav-links ul li:hover::after{
+	width: 100%
+}
+
+.text-box{
+
+	width:90%;
+	color:#fff;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+	
+
+.text-box h1{
+	font-size:62px;
+}
+
+.text-box p{
+	margin: 10px 0 40px;
+	font-size:14px;
+	color:#fff;
+}
+
+.btn{
+	display: inline-block;
+	text-decoration: none;
+	color:white;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size:13px;
+	
+	position:relative;
+	
+	cursor:pointer;
+}
+
+.btn:hover{
+
+	border: 1px solid #f44336;
+	background: #f44336;
+	transition:1s;
+}
+
+.items{
+	width:80%;
+	margin:auto;
+	text-align:center;
+	padding-top:100px;
+}
+.items h2{
+	text-align: center;
+	font-weight:bold;
+	color:#ff9800;
+	padding-bottom:10px;
+	text-transform:uppercase;
+}
+
+.items h2::after{
+	content: '';
+	background: #ff9800;
+	display: block;
+	height:5px;
+	width:170px;
+	margin: 20px auto 5px;
+
+}
+.row{
+
+	margin-top: 5%;
+	display: flex;
+	justify-content:space-between;
+}
+
+.col{
+
+	flex-basis: 20%;
+	background-color: #fff3f3;
+	border-radius: 10px;
+	margin-left: 5%;
+	overflow:hidden;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+
+.col:hover{
+	box-shadow:0 0 20px 0px rgba(128,0,0,1);
+	}
+		
+.col img{
+	width:100%
+}	
+
+.col a{
+
+	color: black;
+	text-decoration: none;
+	
+}
+
+
+.testimonials
+{
+	margin: 50px auto;
+}
+
+.testimonials h2
+{
+	text-align: center;
+	font-weight:bold;
+	color:#ff9800;
+	padding-bottom:10px;
+	text-transform:uppercase;
+}
+
+.testimonials h2::after
+{
+	content: '';
+	background: #ff9800;
+	display: block;
+	height:5px;
+	width:170px;
+	margin: 10px auto 5px;
+}
+
+
+.testimonials .row{
+
+	margin-top:30px;
+	
+}
+
+.col-md-4{
+	margin:10px auto;
+	margin-left: 30px;
+	
+}
+.profile{
+	padding:70px 10px 10px;
+	background-color: #fff3f3;
+}
+
+.profile img{
+	top:-50px;
+	border: 5px solid #fff ;
+}
+
+.user{
+	width: 120px;
+	height:120px;
+	border-radius:50%;
+}
+
+.profile h3
+{ 
+	
+	font-size:20px;
+	margin-top: 15px;
+	color: #ff9800;
+}
+	
+.profile blockquote
+{
+	font-size:16px;
+	line-height:30px;
+}
+
+.profile blockquote::before
+{
+	content: '\93';
+	font-size: 50px;
+	position: relative;
+	color: #ff9800;	
+	line-height: 20px;
+	bottom:15px;
+	right:5px;
+}
+
+.profile blockquote::after
+{
+	content: '\93';
+	font-size: 50px;
+	position: relative;
+	color: #ff9800;	
+	line-height: 20px;
+	bottom:15px;
+	right:5px;
+}
+
+.footer{
+	width:100%;
+	text-align : center;
+	background-color : #ffcccb ;
+	padding : 10px 0;
+}
+	
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+
+}
+	
+.icons .fa {
+	color: #f44336;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+
+}
+
+.footer h2
+{ 
+	margin-top: 15px;
+	color: #ff9800;
+}
+
+.footer h2::after
+{
+	content: '';
+	background: #ff9800;
+	display: block;
+	height:5px;
+	width:170px;
+	margin: 10px auto 5px;
+}
+
+@keyframes slideShow{
+    0% {width:100%;left:100%}
+    5% { left:0}
+    25% {left:0}
+    30% {width:100%;left:-100%}
+    30.001% {width:0;left:-100%}
+    100% { width:0%;left:100%}
+}
+.slider{
+    width:80%;
+    height:70vh;
+   /* position:relative;   */
+   position:relative;
+   
+    overflow:hidden;
+    top:60px;
+    left:100px
+}
+.slide{
+    position:absolute;
+    width:100%;
+    height:inherit;
+    overflow:hidden;
+    animation:slideShow 14s infinite;
+    background-position: center;
+    background-size: cover;
+    background-color:black;
+   /* color:rgb(20, 14, 14);      */
+    font-size: 36px;
+    display:flex;
+    justify-content:center; 
+    align-items:flex-end; 
+    font-size: 20px;
+    
+    
+    
+    
+}
+.slide:nth-child(1){
+    left:0%;
+    color:rgb(215, 226, 58);
+    animation-delay: 11s;
+    background-image: url("https://www.morphogenesis.org/wp-content/uploads/2015/03/77_32-2-1440x-763.jpg");
+}
+.slide:nth-child(2){
+    color:rgb(215, 226, 58);
+    animation-delay: 8s;
+    background-image: url("https://ritvn.com/wp-content/uploads/2019/09/DSC00815.jpg");
+}
+.slide:nth-child(3){
+    color:rgb(215, 226, 58);
+    animation-delay: 5s;
+    background-image: url("https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2021/04/04/noida-2-970073-1617513679.jpg?itok=sXQa1Zln");
+}
+.slide:nth-child(4){
+    color:rgb(50, 218, 59);
+    animation-delay: 2s;
+    background-image: url("https://media-exp1.licdn.com/dms/image/C561BAQGeyZOTo5Mu4w/company-background_10000/0/1576113387853?e=2159024400&v=beta&t=xX9uoa7qhL6k498bjrDeGBVN0fJZV6xNv36iJNVuIuY");
+}
+.slide:nth-child(5){
+    color:rgb(10, 6, 27);
+    animation-delay: -1s;
+    background-image: url("https://www.wcl.american.edu/wcl-american-edu/cache/file/484C63D3-DDFE-EA72-8485314C8A7FF397.jpg");
+}
+
+
+
+
+
+
+	
+	
